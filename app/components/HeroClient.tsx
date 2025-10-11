@@ -87,13 +87,13 @@ export default function HeroClient() {
       <div className="mt-8 flex justify-center gap-4 animate-fade-in-up animation-delay-900">
         <ScrollButton
           targetId="contact"
-          className="bg-green-600 hover:bg-green-700 text-white px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105"
+          className="bg-green-600 hover:bg-green-700 text-white px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 w-64"
         >
           Get Started Today 🚀
         </ScrollButton>
         <ScrollButton
           targetId="about"
-          className="border-2 border-green-300 text-green-100 hover:bg-green-600 hover:border-green-600 px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300"
+          className="border-2 border-green-300 text-green-100 hover:bg-green-600 hover:border-green-600 px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 w-64"
         >
           Learn More 📖
         </ScrollButton>
