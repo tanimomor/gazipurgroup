@@ -70,30 +70,30 @@ export default function HeroClient() {
         </div>
         <div className="text-center animate-fade-in-up animation-delay-600">
           <div className="text-4xl font-bold text-green-200 mb-0 flex justify-center items-baseline gap-0">
-            <CountUp end={7} />
+            <CountUp end={7} duration={800} />
             <span>+</span>
           </div>
           <div className="text-gray-200">Specialized Sectors</div>
         </div>
         <div className="text-center animate-fade-in-up animation-delay-600">
           <div className="text-4xl font-bold text-green-200 mb-0 flex justify-center items-baseline gap-0">
-            <CountUp end={3} />
+            <CountUp end={3} duration={600} />
             <span>+</span>
           </div>
           <div className="text-gray-200">Partner Countries</div>
         </div>
       </div>
 
-      <div className="mt-8 flex justify-center gap-4">
+      <div className="mt-8 flex justify-center gap-4 animate-fade-in-up animation-delay-900">
         <ScrollButton
           targetId="contact"
-          className="bg-green-600 hover:bg-green-700 text-white px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-600"
+          className="bg-green-600 hover:bg-green-700 text-white px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105"
         >
           Get Started Today 🚀
         </ScrollButton>
         <ScrollButton
           targetId="about"
-          className="border-2 border-green-300 text-green-100 hover:bg-green-600 hover:border-green-600 px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300 animate-fade-in-up animation-delay-600"
+          className="border-2 border-green-300 text-green-100 hover:bg-green-600 hover:border-green-600 px-7 py-3 rounded-lg text-lg font-semibold transition-all duration-300"
         >
           Learn More 📖
         </ScrollButton>
