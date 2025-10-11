@@ -102,7 +102,7 @@ export default function FAQ() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Clarity is luxury. Here are the questions we're asked most. And if there's anything more you need, we're just a message away.
+                Clarity is luxury. Here are the questions we&apos;re asked most. And if there&apos;s anything more you need, we&apos;re just a message away.
               </p>
               
               <div className="mb-8">
